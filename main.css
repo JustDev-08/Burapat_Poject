@@ -24,12 +24,18 @@ nav ul {
     width: 370px;
 }
 nav ul li a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
+nav ul li:hover {
+    transition: 100ms;
+    font-size: large;
+}
 header {
+    color: white;
     height: 702px;
-    background: url('https://images.unsplash.com/photo-1596495577886-d920f1fb7238?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80') no-repeat; 
+    background: url('https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80') no-repeat; 
+    background-size: cover;
 }
 .header-info {
     display: flex;
@@ -61,6 +67,12 @@ header {
     margin-top: 50px;
     width: 1170px;
     flex-wrap: wrap;
+}
+.card:hover {
+    transition: 200ms;
+    transform: translate(0px, -20px);
+    background-color: #333333;
+    color: white;
 }
 .card {
     border-radius: 10px;
